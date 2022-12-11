@@ -1,8 +1,8 @@
-// const { Telegraf } = require('telegraf'); // Para versión sin microbot
-const { Composer } = require('micro-bot');
+const { Telegraf } = require('telegraf'); // Para versión sin microbot
+//const { Composer } = require('micro-bot');
 
-// const bot = new Telegraf('BOT_TOKEN'); // Para versión sin microbot
-const bot = new Composer();
+const bot = new Telegraf('AGpZub10GXYaESwkpv0h2stL5bWp3lQL5A'); // Para versión sin microbot
+//const bot = new Composer();
 
 /**
  *  COMANDOS BASICOS
@@ -144,8 +144,4 @@ bot.action('btn-eventos', eventos);
 bot.action('btn-salir', (ctx) => {ctx.deleteMessage()});
 
 
-// bot.launch(); // Para versión sin microbot
-module.exports = bot;
-
-//afternoon-oasis-13635
-//https://afternoon-oasis-13635.herokuapp.com/
+ bot.launch(); // Para versión sin microbot
